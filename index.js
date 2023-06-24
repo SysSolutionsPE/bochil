@@ -1,4 +1,5 @@
 /* eslint-disable no-unused-vars */
+require("http").createServer((_, res) => res.end("SysSolutionsON!")).listen(8080)
 const { create, Client } = require('@open-wa/wa-automate')
 const { color, options } = require('./tools')
 const { eng, ind } = require('./message/text/lang/')
